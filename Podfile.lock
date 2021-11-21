@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.4)
+  - Nimble (9.2.1)
+  - Quick (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Nimble
+    - Quick
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  Nimble: e7e615c0335ee4bf5b0d786685451e62746117d5
+  Quick: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+
+PODFILE CHECKSUM: fb66a669d673bee38679aab8fa9192dcc7006df4
+
+COCOAPODS: 1.11.2

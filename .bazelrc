@@ -1,0 +1,5 @@
+build \
+  --apple_platform_type=ios \
+  --verbose_failures \
+  
+test --verbose_failures

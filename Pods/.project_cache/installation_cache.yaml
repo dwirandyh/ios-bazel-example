@@ -1,0 +1,60 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Alamofire:
+    BUILD_SETTINGS_CHECKSUM:
+      Alamofire:
+        :debug: 66124fc6c8ea92042b76703f87d627d4
+        :release: 66124fc6c8ea92042b76703f87d627d4
+    CHECKSUM: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+    PROJECT_NAME: Alamofire
+    SPECS:
+      - Alamofire (5.4.4)
+  Nimble:
+    BUILD_SETTINGS_CHECKSUM:
+      Nimble:
+        :debug: 41e05d9d152ccabcb73ab7e8fd09d7fb
+        :release: 41e05d9d152ccabcb73ab7e8fd09d7fb
+    CHECKSUM: e7e615c0335ee4bf5b0d786685451e62746117d5
+    PROJECT_NAME: Nimble
+    SPECS:
+      - Nimble (9.2.1)
+  Pods-NewsApp:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 35dbecdb4a1cd4f746a0b80f7224b560
+      Release: 35dbecdb4a1cd4f746a0b80f7224b560
+  Pods-NewsApp-NewsAppUITests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a9fbb9468479c858649b09a1c0f793ac
+      Release: a9fbb9468479c858649b09a1c0f793ac
+  Pods-NewsAppTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: a9fbb9468479c858649b09a1c0f793ac
+      Release: a9fbb9468479c858649b09a1c0f793ac
+  Quick:
+    BUILD_SETTINGS_CHECKSUM:
+      Quick:
+        :debug: 7766f8f5d31d03ecc39925c7ae160203
+        :release: 7766f8f5d31d03ecc39925c7ae160203
+    CHECKSUM: 6473349e43b9271a8d43839d9ba1c442ed1b7ac4
+    PROJECT_NAME: Quick
+    SPECS:
+      - Quick (4.0.0)
+INSTALLATION_OPTIONS:
+  clean: true
+  deduplicate_targets: true
+  deterministic_uuids: true
+  disable_input_output_paths: false
+  generate_multiple_pod_projects: true
+  incremental_installation: true
+  integrate_targets: true
+  lock_pod_sources: true
+  preserve_pod_file_structure: false
+  share_schemes_for_development_pods: false
+  skip_pods_project_generation: false
+  warn_for_multiple_pod_sources: true
+  warn_for_unused_master_specs_repo: true
+OBJECT_VERSION: 55
+PLUGINS:
+  {}

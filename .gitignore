@@ -2,6 +2,13 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+# Bazel
+bazel-bin
+bazel-ios-bazel-example
+bazel-out
+bazel-testlogs
+
+
 ## User settings
 xcuserdata/
 
@@ -58,6 +65,8 @@ playground.xcworkspace
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
+
+Pods/Target Support Files/
 
 # Carthage
 #
