@@ -6,15 +6,26 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        self.title = "Example Title"
+        
+        view.backgroundColor = .white
+        title = "Example Title"
+        
+        fetchFilms()
     }
 
-
+    
+    private func fetchFilms() {
+        let request = AF.request("https://swapi.dev/api/films")
+        request.responseJSON { (data) in
+            print(data)
+            self.title = "Film fetched"
+        }
+    }
 }
 

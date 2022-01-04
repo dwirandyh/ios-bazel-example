@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  NewsApp
+//
+//  Created by Dwi Randy H on 04/01/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+CFBundleVersion=2

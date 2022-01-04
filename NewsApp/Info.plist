@@ -15,15 +15,11 @@
 					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>NewsApp.SceneDelegate</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
-	<key>CFBundleVersion</key>
-	<string>1.0.1</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0.0</string>
+  <key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 </dict>
 </plist>
