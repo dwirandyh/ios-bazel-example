@@ -2,11 +2,14 @@
 The example how to use bazel build system for modular iOS Application
 
 # User Guide
-- Clean Bazel Build
-bazel clean
+Clean Bazel Build
 
-- Build
-bazel build :NewsApplication
+`bazel clean`
 
-- Run on Simulator
-bazel run :NewsApplication
+Build
+
+`bazel build :NewsApplication`
+
+Run on Simulator
+
+`bazel run :NewsApplication`
