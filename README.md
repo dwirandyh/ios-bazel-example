@@ -13,3 +13,7 @@ Build
 Run on Simulator
 
 `bazel run :NewsApplication`
+
+Generate Xcode Project
+
+Open NewsAppProject with `tulsi` -> `Configs Tab` -> `Generate`
