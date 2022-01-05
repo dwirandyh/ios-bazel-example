@@ -15,7 +15,6 @@ class ViewController: UIViewController {
         
         view.backgroundColor = .white
         title = "Example Title"
-        
         fetchFilms()
     }
 
@@ -25,7 +24,13 @@ class ViewController: UIViewController {
         request.responseJSON { (data) in
             print(data)
             self.title = "Film fetched"
+            self.navigateToDetail()
         }
+    }
+    
+    private func navigateToDetail() {
+        let viewController = DetailViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
     }
 }
 

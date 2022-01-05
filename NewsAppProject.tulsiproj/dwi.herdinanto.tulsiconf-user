@@ -1,0 +1,10 @@
+{
+  "optionSet" : {
+    "BazelPath" : {
+      "p" : "/usr/local/bin/bazel"
+    },
+    "WorkspaceRootPath" : {
+      "p" : "/Users/dwi.herdinanto/Research/ios-bazel-example"
+    }
+  }
+}

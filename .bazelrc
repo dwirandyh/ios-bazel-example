@@ -1,5 +1,7 @@
 build \
   --apple_platform_type=ios \
   --verbose_failures \
+  --strategy=SwiftCompile=standalone \
+  --apple_generate_dsym \
   
 test --verbose_failures
