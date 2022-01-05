@@ -8,8 +8,8 @@ bazel-ios-bazel-example
 bazel-out
 bazel-testlogs
 
-# Tulsi Xcodeprojc
-NewsAppProject.xcodeproj
+# xcodeproj
+NewsAppProject.xcodeproj/
 
 
 ## User settings
